@@ -2,11 +2,11 @@
   "name": "analytics.js-integration-qualaroo",
   "repo": "segment-integrations/analytics.js-integration-qualaroo",
   "description": "The Qualaroo analytics.js integration.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
-    "segmentio/analytics.js-integration": "0.3.x",
+    "segmentio/analytics.js-integration": "^1.0.0",
     "segmentio/global-queue": "0.0.2",
     "segmentio/facade": "1.x",
     "component/bind": "1.0.0",
