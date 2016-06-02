@@ -1,16 +1,17 @@
+'use strict';
 
-var Analytics = require('analytics.js-core').constructor;
-var integration = require('analytics.js-integration');
-var sandbox = require('clear-env');
-var tester = require('analytics.js-integration-tester');
+var Analytics = require('@segment/analytics.js-core').constructor;
+var integration = require('@segment/analytics.js-integration');
+var sandbox = require('@segment/clear-env');
+var tester = require('@segment/analytics.js-integration-tester');
 var Qualaroo = require('../lib/');
 
-describe.skip('Qualaroo', function() {
+describe('Qualaroo', function() {
   var analytics;
   var qualaroo;
   var options = {
-    customerId: '47517',
-    siteToken: '9Fd'
+    customerId: '48090',
+    siteToken: 'eUg'
   };
 
   beforeEach(function() {
